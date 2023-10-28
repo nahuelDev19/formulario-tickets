@@ -16,9 +16,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
-          <a class="navbar-brand mr-4 text-light" href="#"
-            ><h3>Conf Bs As</h3></a
-          >
+          <a class="navbar-brand mr-4 text-light" href="#">
+            <h3>Conf Bs As</h3>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -38,8 +38,7 @@
                   class="nav-link text-secondary active"
                   aria-current="page"
                   href="#"
-                  >La Conferencia</a
-                >
+                  >La Conferencia</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="#">Los Oradores</a>
@@ -64,7 +63,7 @@
     </header>
 
     <!-- main-->
-    <main class="container  ">
+    <main class="container">
       <div class="sec-con text-center">
         <section class="sec1">
           <h3>Estudiante</h3>
@@ -99,22 +98,17 @@
               <input type="text" class="form-control" placeholder="Nombre" />
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="apellido">                
+              <input type="text" class="form-control" placeholder="Apellido">                
               </select>
             </div>
 
             <div class="col-12 margin-bottom">
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress"
-                placeholder="correro"
-              />
+              <input type="email" class="form-control" id="inputAddress" placeholder="Correo"/>
             </div>
             
             <div class="col-md-6 ">
               <label for="inputCan" class="form-label">Cantidad</label>
-              <input type="number" class="form-control" id="inputCan" />
+              <input type="number" class="form-control" id="inputCan" min="1" />
             </div>
             <div class="col-md-6 ">
               <label for="inputState" class="form-label">Categoria</label>
@@ -140,15 +134,13 @@
         </div>
       </section>
     </main>
-    <!-- footer-->
 
+    <!-- footer-->
     <footer class="border border-primary my-2 miFooter p-2">
       <div class="row justify-content-center text-center">
         <div class="col">
           <a href="#" class="link-light text-decoration-none"
-            >Preguntas <br />
-            Frecuentes</a
-          >
+          >Preguntas Frecuentes</a>
         </div>
         <div class="col my-auto">
           <a href="#" class="link-light text-decoration-none">Contactanos</a>
@@ -161,9 +153,7 @@
         </div>
         <div class="col">
           <a href="#" class="link-light text-decoration-none"
-            >Terminos y <br />
-            Condiciones</a
-          >
+            >Terminos y Condiciones</a>
         </div>
         <div class="col my-auto">
           <a href="#" class="link-light text-decoration-none">Privacidad</a>
@@ -173,6 +163,7 @@
         </div>
       </div>
     </footer>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/tickets.js"></script>
   </body>

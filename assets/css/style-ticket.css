@@ -1,27 +1,16 @@
-*{
+*{  
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
-
-
-
 /*main*/
-
- 
 main{
-    margin-top: 5%;
-    
+    margin-top: 5%;    
 }
-
-
 /*sections*/
-
 .sec-con{
     display: flex;
     justify-content: center;
     gap: 1rem;
-
 }
 
 .sec1 {
@@ -64,21 +53,16 @@ main{
   footer
   */
   .miFooter {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 13, 121, 1) 56%, rgba(0, 108, 255, 1) 100%);
     color: #fff;
-    text-align: center;
-    padding: 10px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 @media (max-width: 768px) {
     .miFooter {
-        position: static;
         width: 100%;
     }
 }
-
-  /* Estilos para el footer */
- 
-
+/* Estilos para el footer */
