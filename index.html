@@ -103,16 +103,18 @@
             </div>
 
             <div class="col-12 margin-bottom">
-              <input type="email" class="form-control" id="inputAddress" placeholder="Correo"/>
+              <input type="email" class="form-control"  placeholder="Correo"/>
             </div>
             
             <div class="col-md-6 ">
-              <label for="inputCan" class="form-label">Cantidad</label>
-              <input type="number" class="form-control" id="inputCan" min="1" />
+              <label for="cantidad" class="form-label">Cantidad</label>
+              <!-- id cantidad-->
+              <input type="number" class="form-control" id="cantidad" min="1" max="5"/>
             </div>
             <div class="col-md-6 ">
-              <label for="inputState" class="form-label">Categoria</label>
-              <select id="inputCate" class="form-select selector">
+              <label for="categoria" class="form-label">Categoria</label>
+              <!-- id categoria-->
+              <select id="categoria" class="form-select selector">
                 <option selected>Estudiante</option>
                 <option selected>Trainee</option>
                 <option selected>Junior</option>
@@ -127,8 +129,9 @@
             <div class="col-6">
               <button type="reset" class="btn btn-primary custom-btn">Borrar todo</button>
             </div>
+            <!-- id resultado-->
             <div class="col-6 ">
-              <button type="submit"  class="btn btn-primary custom-btn">Total</button>
+              <button id="resultado" type="submit"  class="btn btn-primary custom-btn">Total</button>
             </div>
           </form>
         </div>
