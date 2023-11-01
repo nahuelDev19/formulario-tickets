@@ -1,19 +1,31 @@
-
 const boton = document.getElementById('resultado');
 boton.addEventListener("click", mostrar);
-
   function mostrar(){
     const cantidad = document.getElementById("num").value;
     const pantalla = document.getElementById("pantalla");
-    if(cantidad < 6 && cantidad > 0){
-      texto = "Monto a pagar: "+pagar(cantidad) + "!"; //texto con lo que hay que pagar
-      /*
-      let element = document.createElement('p');
+    let camposValidos = nombreValido() && correoValido() && apellidoValido();
+
+    if(cantidad < 6 && cantidad > 0 && camposValidos){
+      texto = pagar(cantidad) + "";    
+      let element = document.createElement('input');
       let hijo = document.createTextNode(texto);
-      //pantalla.appendChild(hijo);   
-      */              
-      pantalla.innerText = texto;
+      pantalla.innerText = texto;    
     }
+  }
+
+  function nombreValido(){
+    let nombre = document.getElementById("nombre").value;
+    return nombre.length > 3;
+  }
+  function apellidoValido(){
+    let apellido = document.getElementById("apellido").value;
+    return apellido.length > 4;
+  }
+  function correoValido(){
+    let email = document.getElementById("correo").value;
+    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
+    let test = regexEmail.test(email);
+    return test; 
   }
 
   function pagar(cant){
