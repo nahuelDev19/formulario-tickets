@@ -63,22 +63,23 @@
         <div class="sec-con text-center">
           <section class="sec1">
             <h3>Estudiante</h3>
-            <p>tiene un descuento</p>
+            <p>Tienen un descuento</p>
             <h4>80%</h4>
-            <p>*presentar documentacion</p>
+            <p>* presentar documentación</p>
           </section>
 
           <section class="sec2">
             <h3>Trainee</h3>
-            <p>tiene un descuento</p>
+            <p>Tienen un descuento</p>
             <h4>50%</h4>
-            <p>*presentar documentacion</p>
+            <p>* presentar documentación</p>
           </section>
+
           <section class="sec3">
             <h3>Junior</h3>
-            <p>tiene un descuento</p>
+            <p>Tienen un descuento</p>
             <h4>15%</h4>
-            <p>*presentar documentacion</p>
+            <p>* presentar documentación</p>
           </section>
         </div>
         <section>
@@ -86,14 +87,13 @@
             <h6>VENTA</h6>
             <h2>VALOR DE TICKET $200</h2>
           </div>
-     
       
-        <form class="row g-1">     
-            <div class="col-md-6">
+        <form class="row g-1 w-75 mx-auto">     
+            <div class="col-md-6 margin-bottom">
               <input type="text" id="nombre" class="form-control" placeholder="Nombre" min="4" required />              
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 margin-bottom">
               <input type="text" id="apellido" class="form-control" placeholder="Apellido" min="4" required/>  
             </div>            
             
@@ -101,39 +101,39 @@
               <input type="email" id="correo" class="form-control" placeholder="Correo" required/>              
             </div>            
             
-            <div class="col-md-6 ">
+            <div class="col-md-6">
               <label for="num" class="form-label">Cantidad</label><!-- id num-->
-              <input id="num" type="number" name="number" class="form-control" min="1" max="5"/>
+              <input id="num" type="number" name="number" class="form-control" min="1" max="5" placeholder="cantidad" required/>
             </div>
             
             <div class="col-md-6">
-              <label for="categoria" class="form-label">Categoria</label><!-- id categoria-->
+              <label for="categoria" class="form-label">Categoría</label><!-- id categoria-->
                   <select id="categoria" class="form-select selector">
-                    <option value="Estudiante"selected>Estudiante</option>
-                    <option value="Trainee"   selected>Trainee</option>
-                    <option value="Junior"    selected>Junior</option>
+                    <option value="Estudiante" selected>Estudiante</option>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Junior">Junior</option>
                   </select>
             </div>   
 
                 <div class="col-md-12">
-                  <div class="col-md-12 p-2 colores">
+                  <div class="col-md-12 my-3 p-3 total">
                       Total a pagar $: <span id="pantalla"></span>
                   </div>
                 </div>            
                 <div class="col-6">
-                  <button type="reset" class="btn btn-primary custom-btn col-md-12">Borrar todo</button>
+                  <button type="reset" class="btn btn-primary custom-btn col-12">Borrar</button>
                 </div>
                 <!-- id resultado-->
-                <div class="col-6">
-                  <button id="resultado" type="button" class="btn btn-primary custom-btn col-md-12">Total</button>           
+                <div class="col-6 mb-2">
+                  <button id="resultado" type="button" class="btn btn-primary custom-btn col-12">Resumen</button>           
                 </div>
         </form>
     </main>
 
     <!-- footer-->
-    <footer class="border border-primary my-2 miFooter ">
-      <div class="row justify-content-center text-center">
-        <div class="col">
+    <footer class="border border-primary my-2 miFooter w-100">
+      <div class="row d-flex justify-content-center text-center">
+        <div class="col my-auto">
           <a href="#" class="link-light text-decoration-none">Preguntas Frecuentes</a>
         </div>
         <div class="col my-auto">
