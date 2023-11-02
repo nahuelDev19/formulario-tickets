@@ -4,7 +4,7 @@
 }
 /*main*/
 main{
-    margin-top: 5%;    
+    margin-top: 2%;    
 }
 /*sections*/
 .sec-con{
@@ -19,12 +19,12 @@ main{
     margin: 1rem 0;
 }
 .sec2 {
-    border: 2px solid rgb(23, 201, 241);
+    border: 2px solid rgb(115, 199, 212);
     padding: 1rem;
     margin: 1rem 0;
 }
 .sec3 {
-    border: 2px solid rgb(19, 209, 22);
+    border: 2px solid rgb(255, 193, 10);
     padding: 1rem;
     margin: 1rem 0;
 }
@@ -42,27 +42,19 @@ main{
     border: 2px solid #08d03a; /* Aumenta el grosor del borde a 2px (puedes ajustarlo según tus preferencias) */
   }
 
-  .margin-bottom {
+.margin-bottom {
     margin-bottom: 1rem; /* Ajusta el valor según la separación que desees */
   }
+.total {
+    background-color: #cce5ff;
+    color: #08468a;
+}
 
-  .input-alto {
-    height: 3rem; 
-  }
-  /*
-  footer
-  */
-  .miFooter {
-    width: 100%;
+/* footer*/
+.miFooter {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 13, 121, 1) 56%, rgba(0, 108, 255, 1) 100%);
     color: #fff;
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-@media (max-width: 768px) {
-    .miFooter {
-        width: 100%;
-    }
-}
-/* Estilos para el footer */
