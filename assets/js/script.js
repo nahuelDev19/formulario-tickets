@@ -16,14 +16,14 @@ boton.addEventListener("click", mostrar);
   function nombreValido(){
     let nombre = document.getElementById("nombre").value;
     if(nombre.length<3){
-      return alert("el nombre debe tener un minimo de 3 letras")
+      alert("el nombre debe tener un minimo de 3 letras")
     }
     return nombre.length >= 3;
   }
   function apellidoValido(){
     let apellido = document.getElementById("apellido").value;
     if(apellido.length<4){
-      return alert("el apellido debe tener un minimo de 4 letras")
+      alert("el apellido debe tener un minimo de 4 letras")
     }
     return apellido.length >= 4;
   }
@@ -32,7 +32,7 @@ boton.addEventListener("click", mostrar);
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
     let test = regexEmail.test(email);
     if(!test){
-      return alert("el campo email deba estar completo")
+      alert("el campo email deba estar completo")
     }
     return test; 
   }
