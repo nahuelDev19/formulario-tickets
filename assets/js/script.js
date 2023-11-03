@@ -6,7 +6,7 @@ boton.addEventListener("click", mostrar);
     let camposValidos = nombreValido() && correoValido() && apellidoValido();
 
     if(cantidad < 6 && cantidad > 0 && camposValidos){
-      texto = pagar(cantidad) + "";    
+      let texto = pagar(cantidad) + "";    
       let element = document.createElement('input');
       let hijo = document.createTextNode(texto);
       pantalla.innerText = texto;    
@@ -40,16 +40,16 @@ boton.addEventListener("click", mostrar);
   }
   
   function esJunior(){
-    var categoria = document.getElementById("categoria").value;
+    let categoria = document.getElementById("categoria").value;
     return "Junior" == categoria;
   }
   function esEstudiante(){
-    var categoria = document.getElementById("categoria").value;
+    let categoria = document.getElementById("categoria").value;
     return "Estudiante" == categoria;
   }
   
   function esTrainee(){
-    var categoria = document.getElementById("categoria").value;
+    let categoria = document.getElementById("categoria").value;
     return "Trainee" == categoria;
   }
   

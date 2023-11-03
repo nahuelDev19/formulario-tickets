@@ -4,7 +4,8 @@
 }
 /*main*/
 main{
-    margin-top: 2%;    
+    margin-top: 2%;
+    min-height: 100vh;    
 }
 /*sections*/
 .sec-con{
@@ -54,6 +55,7 @@ main{
 .miFooter {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 13, 121, 1) 56%, rgba(0, 108, 255, 1) 100%);
     color: #fff;
+    padding-bottom: 1rem;
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
